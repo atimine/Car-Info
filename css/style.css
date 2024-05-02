@@ -1,0 +1,226 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Code Next-Trial', sans-serif;
+    background: radial-gradient(#3a3a3a, transparent);
+}
+
+nav {
+    text-align: center;
+}
+
+ul {
+    margin-top: 0;
+    background: #020202;
+    height: 50px;
+    align-content: center;
+    position: fixed;
+    width: 100%;
+}
+
+ul li {
+    list-style-position: inside;
+    list-style: none;
+    display: inline-block;
+    margin-inline: 1rem;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #6d6d6d;
+    text-transform: uppercase;
+}
+
+ul li a:hover {
+    color: #d8d8d8;
+    text-decoration: underline;
+}
+
+.car-img {
+    margin: 10rem 3rem;
+    height: 15.1rem;
+    width: 40rem;
+    display: contents;
+    display: inline-block;
+}
+
+.left {
+    margin-bottom: 100px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.right {
+    margin-bottom: 100px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.car-about {
+    display: inline-block;
+    width: 20rem;
+    margin-left: 7rem;
+    background: #020202;
+    color: #6d6d6d;
+    box-shadow: 1px 1px 50px #000;
+}
+
+.car-about p {
+    padding: 1rem;
+    text-align: justify;
+}
+
+.car-about p:hover {
+    color: #d8d8d8;
+}
+
+.car-about p span {
+    margin-bottom: 1px;
+    display: block;
+    font-size: 1.5rem;
+}
+
+.car-about p span {
+    color: #6d6d6d;
+}
+
+.about {
+    font-size: 30px;
+    padding-top: 10rem;
+    margin-top: 85px;
+    background: #020202;
+    height: 30rem;
+    color: #6d6d6d;
+    text-align: center;
+}
+
+.brands div {
+    margin: 50px 5rem;
+    height: 20rem;
+    text-align: center;
+}
+
+.brands div span:nth-child(1),
+.brands div span:nth-child(2),
+.brands div span:nth-child(3) {
+    background: #fff;
+    display: inline-block;
+    width: 130px;
+    height: 70px;
+    margin: 10px 0;
+    margin-inline: 6rem;
+    color: #d8d8d8;
+    align-content: center;
+    border-radius: 10px;
+}
+
+.brands div span:nth-child(4) {
+    background: #fff;
+    display: inline-block;
+    width: 130px;
+    height: 70px;
+    margin: 10px 10rem 10px 17rem;
+    color: #d8d8d8;
+    align-content: center;
+    border-radius: 10px;
+
+}
+
+.brands div span:nth-child(5) {
+    background: #fff;
+    display: inline-block;
+    width: 130px;
+    height: 70px;
+    margin: 10px 16rem 10px 2rem;
+    color: #d8d8d8;
+    align-content: center;
+    border-radius: 10px;
+}
+
+.brands div span:nth-child(6),
+.brands div span:nth-child(7),
+.brands div span:nth-child(8) {
+    background: #fff;
+    display: inline-block;
+    width: 130px;
+    height: 70px;
+    margin: 10px 0;
+    margin-inline: 6rem;
+    color: #d8d8d8;
+    align-content: center;
+    border-radius: 10px;
+}
+
+.brands div span {
+    text-align: center;
+    align-content: center;
+}
+
+footer {
+    background: #020202;
+    color: #d8d8d8;
+    text-align: center;
+}
+
+.container {
+    margin-inline: 5rem;
+    padding: 20px 0 20px 0;
+}
+
+.comment form input[type="text"] {
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    height: 2rem;
+    font-size: 20px;
+    color: #020202;
+    font-weight: bold;
+    background: #6d6d6d;
+}
+
+.comment form input[type="text"]::placeholder {
+    color: #020202;
+    font-weight: 100;
+}
+
+
+.comment form input[type="submit"] {
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    height: 2rem;
+    font-size: 20px;
+    outline: 2px solid #6d6d6d;
+    background: #d8d8d8;
+    color: #6d6d6d;
+}
+
+.comment form input[type="submit"]:hover {
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    height: 2rem;
+    font-size: 20px;
+    background: #6d6d6d;
+    color: #d8d8d8;
+}
+
+.info {
+    align-content: center;
+    color: #6d6d6d;
+    margin: 10px 0 0 0;
+    height: 40px;
+}
+
+.color {
+    background-color: #6d6d6d;
+}
+
+.myh1 {
+    color: darkred !important;
+}
